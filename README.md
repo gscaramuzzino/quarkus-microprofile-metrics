@@ -1,4 +1,9 @@
-# quarkus-microprofile-health project
+# MicroProfile Metrics with Quarkus
+
+Follow the video tutorial:
+
+
+[![Alt text](https://user-images.githubusercontent.com/8536722/110162186-aa6eab00-7dee-11eb-8289-bd3cf6c13a11.png)](https://youtu.be/aAIgNXEi9Dk "Click to play on Youtube.com")
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -41,7 +46,7 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/quarkus-microprofile-health-1.0.0-SNAPSHOT-runner`
+You can then execute your native executable with: `./target/quarkus-microprofile-metrics-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
 
